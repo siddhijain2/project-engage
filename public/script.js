@@ -4,12 +4,7 @@ const socket = io("/");
 const videoGrid = document.getElementById("video-grid");
 const myVideo = document.createElement("video");
 let status = document.getElementById("info");
-//New Work
-const shareUrlImg = "public\Images\illustration-section-01.svg";
-const leaveRoomIng = "public\Images\illustration-section-01.svg";
-const confirmImg = "public\Images\illustration-section-01.svg";
-const peerLoockupUrl ="https://extreme-ip-lookup.com/json/";
-const avtarApiUrl = "https://eu.ui-avatars.com/api";
+
 
 let swalBackground = "rgba(0,0,0,0.7)";
 let myPeerName;
