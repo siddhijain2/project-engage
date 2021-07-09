@@ -1,0 +1,27 @@
+{
+  "name": "video-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.10.0",
+    "mongoose": "^5.13.2",
+    "ngrok": "^4.0.1",
+    "nodemon": "^2.0.9",
+    "peer": "^0.5.3",
+    "socket.io": "^2.3.0",
+    "tippy": "0.0.0",
+    "uuid": "^8.3.0"
+  }
+}
